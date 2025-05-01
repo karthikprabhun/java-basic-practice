@@ -7,7 +7,7 @@ Java Tutorial for Beginners - covers fundamentals https://www.youtube.com/watch?
 Variables & constants - used to store temporary value in memory
 Types - Primitive & Reference Types
     primitive - byte, short,int, long, float, double , char, boolean ( refer chart )
-    Reference - ( to store complex types) Date , String 
+    Reference 
 Casting - implicit & explicit
 Numbers, String & Arrays
 Read Input from terminal - Scanner
@@ -34,16 +34,12 @@ Under The Hood  -
     Main.java (source code) --> JAVA COMPILER --> Main.class ( bite code which is platform independent) --> JVM --> Native code ( Windows , Linux etc )
 Diff between primitive vs reference type ?
 Difference between parameters and arguments ?
-List primitive types with bytes and range 
 
-
-abstract class are like half-baked cake. you can instantiate abstract class. for example NumberFormat is abstract class which can be instiniated but using NumberFormate.getCurrencyInstance() which is a factory method we can get the object
-
+abstract class are like half-baked cake.
 Factory method -> which creates object ex: NumberFormat.getCurrencyInstance()
 
 why String a != "quit" will throw error ? String is reference type, here using comparison operator will check the address instead of value. so use .equals() 
 
-== vs equal() 
 
 ## Commands
 
